@@ -1,7 +1,7 @@
 import { useReducer } from 'react';
+import { types } from '../types/types';
 import { AuthContext } from './AuthContext';
 import { authReducer } from './authReducer';
-import { types } from '../types/types';
 
 // const initialState = {
 //   logged: false,
